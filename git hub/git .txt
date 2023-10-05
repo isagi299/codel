@@ -37,7 +37,8 @@ touch file_name.extension --> to create a file
 git checkout file_name --> to bring back a file
 git checkout -f --> to bring back all the file
 to undo the commit --> git reset --soft HEAD~
-
+to undo the commit --> git reset  HEAD~(no of commit)
+git reset -- to return from git add
 workflow :
 github repo -> clone -> change -> add -> commit -> push
 
