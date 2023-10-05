@@ -36,6 +36,7 @@ fork to copy a code to our github
 touch file_name.extension --> to create a file
 git checkout file_name --> to bring back a file
 git checkout -f --> to bring back all the file
+to undo the commit --> git reset --soft HEAD~
 
 workflow :
 github repo -> clone -> change -> add -> commit -> push
