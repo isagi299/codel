@@ -1,0 +1,52 @@
+string
+
+// string is dynamic  means it will take memory when we give an input
+// after declare it will work like charecter array (static)
+// #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+// declare string -- string s_name;
+// intialization string when declare -- string s=" input ";
+// string input s+= input / s=s+input
+// string size function -- s_name.size();
+// indexwise access -- s_name[index]
+// string concatenation : s=s1+s2
+// to delete an entire string -- s_name.clear(), to know a string is empty or not -- s_name.empty(), assignment one string in another -- s1=s2
+// iterate string using iterator string::iterator it_name;
+// iterate using for each loop
+// comare two string -- if(s1==s2) and reverse a string -- reverse( s.begin()+n,s.begin()+m+1{if full string s.end()} )
+// input string from user cin>>s_name;
+// cin cannot input string after space to input an entire line we use getline(cin,s_name); getline assume enter as a input so use char variable to input the first charecter of the string;
+// char a1;
+// cin>>a1;
+// getline(cin,s);
+// s=a1+s;
+// sorting string -- sort(s_name.begin()+n,s_name.begin()+m+1{s_name.end()}) incresing order
+// sorting string -- sort(s_name.rbegin()+n,s_name.rend()) decresing order
+// unique -- int sz= unique(s.begin(),s.end())-s.begin();
+// max element and min element like vector
+// s_name.erase(s.begin()+index)
+// string compare lexicographically -- prefix suffix sub-string sub-sequence (ascii value compare)
+// sorting string lexicographically
+// if we want to remove a specific charecter from all the string -- s.erase(remove(s.begin(),s.end(),'char'),s.end())
+// to access the last element of a string -- s_name.back()
+// to delete the last element of a string -- s_name.pop_back()
+// find unique string
+// convert a integer to a string -- s(string) = to_string(a(int))
+s[0]='a'; // can change like string
+// convert a string to a integer --  a(int)=stoi(s(string))
+// to check a charecter is lowecase, uppercase or space == islower(c), isupper(c), isspace(c); store the value in a bool variable
+// convert a chrecter to lowercase uppercase == tolower(c) toupper(c); store it in a char variable
+// delete a portion of a string -- s_name.erase(s.begin()+n,s.begin()+m+1/s.end())
+// to copy a substring from another string and insert to a string -- copy(a_name.begin+n,a_name.begin+m+1,back_inserter(s_name))
+// if we want to remove a specific charecter from all the string -- s.erase(remove(s.begin(),s.end(),'char'),s.end())
+// check if a substring is present in a string or not -- if(s.find("substring")!=-1)
+// to know access every digit of a interger
+
+s="12345";
+int sum=0;
+for(auto u:s) sum+=(u-'0')
+cout<<sum<<endl;
+// using transform() function and ::toupper in STL(convert a entire string to uppercase)
+//transform(s1.begin(), s1.end(), s1.begin(), ::toupper);
+// using transform() function and ::tolower in STL(convert a entire string to lowercase)
+//transform(s2.begin(), s2.end(), s2.begin(), ::tolower);
+// to know the next permutation of a string bool e=next_permutation(s.begin(),s.end());{it will work for all thing besides string}
