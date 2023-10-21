@@ -68,7 +68,9 @@ ss="hello world"
 print(ss.count("o"))
 
 # if you want to print multiple line use print(''' write code ''')
+# you write a symbol after \ to ignore it from compiling
 
+print("hello jas\"hore\"")
 
 
 
