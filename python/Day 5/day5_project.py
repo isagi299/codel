@@ -12,7 +12,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 password = []
 for i in range(1,nr_letters+1):
     rn = random.randint(0,len(letters)-1)
-    password.append(letters[rn])  # random,choice()
+    password.append(letters[rn])  # random.choice()
 for i in range(1,nr_symbols+1):
     rn = random.randint(0,len(symbols)-1)
     password.append(symbols[rn])  
