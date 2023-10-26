@@ -1,1 +1,1 @@
-alert("Day 3")
+alert("welcome to html website")
